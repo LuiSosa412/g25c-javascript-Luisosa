@@ -1,0 +1,32 @@
+body{
+  
+  padding: 6px;
+}
+
+/* PARA GRID */
+.mdl-cell {
+  box-sizing: border-box;
+  background-color: #BDBDBD;
+  height: 200px;
+  padding-left: 8px;
+  padding-top: 6px;
+  color: white;
+  
+}
+.mdl-grid:first-of-type .mdl-cell {
+  height: 750px;
+  background-color: rgb(255, 255, 255);
+  
+}
+
+
+/* PARA EL HERDER */
+.demo-layout-transparent {
+  background: url('https://getmdl.io/assets/demos/transparent.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
